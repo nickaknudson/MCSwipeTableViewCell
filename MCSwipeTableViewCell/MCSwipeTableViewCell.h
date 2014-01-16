@@ -65,6 +65,7 @@ typedef NS_ENUM(NSUInteger, MCSwipeTableViewCellMode) {
 // Percentage of when the first and second action are activated, respectively
 @property (nonatomic, assign) CGFloat firstTrigger;
 @property (nonatomic, assign) CGFloat secondTrigger;
+@property (nonatomic, assign) CGFloat thirdTrigger;
 
 // Color for background, when any state hasn't triggered yet
 @property (nonatomic, strong) UIColor *defaultColor;
